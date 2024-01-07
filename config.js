@@ -1,9 +1,9 @@
 
 const jsonConfig = {
 
-    API_URL: "https://backend.nextly.shop",
-    WEBSITE_URL: "https://nextly.shop",
-    IMG_URL: "https://backend.nextly.shop",
+    API_URL: "https://backend.aseetrade.com",
+    WEBSITE_URL: "https://aseetrade.com",
+    IMG_URL: "https://backend.aseetrade.com",
 
     maillerConfig: {
         // host: 'smtp.gmail.com',
@@ -42,9 +42,9 @@ const jsonConfig = {
 }
 
 if (process.env.NODE_ENV == 'development') {
-    jsonConfig.API_URL = "http://localhost:5000"
-    jsonConfig.WEBSITE_URL = "http://localhost:3000"
-    jsonConfig.IMG_URL = "http://localhost:5000"
+    jsonConfig.API_URL = "http://localhost:5001"
+    jsonConfig.WEBSITE_URL = "http://localhost:3001"
+    jsonConfig.IMG_URL = "http://localhost:5001"
 }
 
 
