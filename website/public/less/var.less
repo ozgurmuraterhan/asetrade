@@ -1,0 +1,103 @@
+// if you need all ant component css use blow line
+// @import "./node_modules/antd/dist/antd.less";
+
+@import "./node_modules/antd/lib/style/default.less";
+@import "./node_modules/antd/lib/menu/style/index-pure.less";
+@import "./node_modules/antd/lib/form/style/index-pure.less";
+@import "./node_modules/antd/lib/input/style/index-pure.less";
+@import "./node_modules/antd/lib/input-number/style/index-pure.less";
+@import "./node_modules/antd/lib/modal/style/index-pure.less";
+@import "./node_modules/antd/lib/radio/style/index-pure.less";
+@import "./node_modules/antd/lib/pagination/style/index-pure.less";
+@import "./node_modules/antd/lib/select/style/index-pure.less";
+@import "./node_modules/antd/lib/table/style/index-pure.less";
+@import "./node_modules/antd/lib/tooltip/style/index-pure.less";
+@import "./node_modules/antd/lib/tree/style/index-pure.less";
+@import "./node_modules/antd/lib/tree-select/style/index-pure.less";
+@import "./node_modules/antd/lib/button/style/index-pure.less";
+@import "./node_modules/antd/lib/tag/style/index-pure.less";
+@import "./node_modules/antd/lib/checkbox/style/index-pure.less";
+@import "./node_modules/antd/lib/drawer/style/index-pure.less";
+@import "./node_modules/antd/lib/divider/style/index-pure.less";
+@import "./node_modules/antd/lib/message/style/index-pure.less";
+@import "./node_modules/antd/lib/badge/style/index-pure.less";
+
+@primary-color: #f27a1b ;
+ 
+.ant-layout {
+  background: transparent;
+}
+.ant-input-search-button,.ant-btn-primary{
+  background-color:@primary-color!important
+}
+ 
+
+.anticon svg { 
+  display: block;
+}
+ 
+.swiper-button-disabled {
+  opacity: 0.3;
+}
+  
+
+.categoriesFilter {
+ 
+  .ant-tree-treenode-disabled {
+    margin-top: 5px;
+  }
+
+  .ant-tree-treenode-switcher-open {
+    padding: 0;
+  }
+
+  .ant-tree .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+    color: #464646;
+    cursor: s-resize;
+    font-weight: bold;
+  }
+
+  .ant-checkbox-group {
+    float: left;
+
+    .ant-checkbox-group-item {
+      float: left;
+      width: 100%;
+    }
+  }
+
+  .ant-tree-switcher-noop {
+    display: none;
+  }
+
+  .ant-tree-indent-unit {
+    width: 10px;
+  }
+
+  .ant-tree-switcher_open {
+    display: none;
+  }
+
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: #dddddd;
+  }
+}
+
+.ant-select-tree
+  .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected {
+  background-color: #dddddd;
+}
+ 
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  background-color: #d4d4d4;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+  opacity: 0.8;
+  padding-bottom: 0 !important;
+}
+  
